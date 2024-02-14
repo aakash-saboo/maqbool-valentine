@@ -34,7 +34,7 @@ export function Page() {
   const navigate = useNavigate();
 
   const handleYesClick = () => {
-    navigate('/will-you-be-my-valentine/pages/q2');
+    navigate('/maqbool-valentine/pages/q2');
   };
 
   return (
