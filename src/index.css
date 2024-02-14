@@ -9,7 +9,7 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-image: url('https://t3.ftcdn.net/jpg/03/68/52/60/360_F_368526008_igcUVUGw6aJRFGtSA8k7W8SV5Qd1a3l9.jpg');
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -32,6 +32,7 @@ body {
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
+    background-image: url('https://t3.ftcdn.net/jpg/03/68/52/60/360_F_368526008_igcUVUGw6aJRFGtSA8k7W8SV5Qd1a3l9.jpg'); 
 }
 
 h1 {
@@ -61,7 +62,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
     :root {
         color: #213547;
-        background-color: #ffffff;
+        background-image: url('https://t3.ftcdn.net/jpg/03/68/52/60/360_F_368526008_igcUVUGw6aJRFGtSA8k7W8SV5Qd1a3l9.jpg'); 
     }
     a:hover {
         color: #747bff;
