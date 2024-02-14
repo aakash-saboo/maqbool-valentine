@@ -14,16 +14,16 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/will-you-be-my-valentine/" element={<Page />} />
-        <Route path="/will-you-be-my-valentine/pages/q2" element={<Q2/>} />
-        <Route path="/will-you-be-my-valentine/pages/q3" element={<Q3/>} />
-        <Route path="/will-you-be-my-valentine/pages/q4" element={<Q4/>} />
-        <Route path="/will-you-be-my-valentine/pages/q5" element={<Q5/>} />
-        <Route path="/will-you-be-my-valentine/pages/q6" element={<Q6/>} />
-        <Route path="/will-you-be-my-valentine/pages/q7" element={<Q7/>} />
-        <Route path="/will-you-be-my-valentine/pages/q8" element={<Q8/>} />
-        <Route path="/will-you-be-my-valentine/pages/q9" element={<Q9/>} />
-        <Route path="/will-you-be-my-valentine/pages/final-q" element={<FinalQ/>} />
+        <Route path="/maqbool-valentine/" element={<Page />} />
+        <Route path="/maqbool-valentine/pages/q2" element={<Q2/>} />
+        <Route path="/maqbool-valentine/pages/q3" element={<Q3/>} />
+        <Route path="/maqbool-valentine/pages/q4" element={<Q4/>} />
+        <Route path="/maqbool-valentine/pages/q5" element={<Q5/>} />
+        <Route path="/maqbool-valentine/pages/q6" element={<Q6/>} />
+        <Route path="/maqbool-valentine/pages/q7" element={<Q7/>} />
+        <Route path="/maqbool-valentine/pages/q8" element={<Q8/>} />
+        <Route path="/maqbool-valentine/pages/q9" element={<Q9/>} />
+        <Route path="/maqbool-valentine/pages/final-q" element={<FinalQ/>} />
       </Routes>
     </Router>
   );

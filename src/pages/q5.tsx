@@ -8,7 +8,7 @@ export default function Q5() {
     const navigate = useNavigate();
   
     const handleYesClick = () => {
-      navigate('/will-you-be-my-valentine/pages/q6');
+      navigate('/maqbool-valentine/pages/q6');
     };
 
     const handleButton1Click = () => {

@@ -2,21 +2,11 @@ import { useNavigate } from 'react-router-dom';
 import { useState } from "react";
 
 export default function Q7() {
-    const [isButton1Visible, setIsButton1Visible] = useState(true);
-    const [isButton2Visible, setIsButton2Visible] = useState(true);
 
     const navigate = useNavigate();
   
     const handleYesClick = () => {
-      navigate('/will-you-be-my-valentine/pages/q8');
-    };
-
-    const handleButton1Click = () => {
-        setIsButton1Visible(false);
-    };
-
-    const handleButton2Click = () => {
-        setIsButton2Visible(false);
+      navigate('/maqbool-valentine/pages/q8');
     };
   
     return (
